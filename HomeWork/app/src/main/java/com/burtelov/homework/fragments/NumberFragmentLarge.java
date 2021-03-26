@@ -25,6 +25,7 @@ public class NumberFragmentLarge extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
         View view = inflater.inflate(R.layout.fragment_number_large, container, false);
         TextView textDetail = view.findViewById(R.id.textLarge);
 
